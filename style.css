@@ -56,14 +56,21 @@
 }
 .hero {
   margin: 52px 196px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
 }
 @font-face {
   font-family: "miama";
   src: url(miama/Miama.ttf);
 }
+.hero-left-side {
+}
 
 .hero-text {
   color: white;
+  width: 50%;
 }
 .hero-title {
   font-size: 78px;
@@ -72,4 +79,16 @@
 .shape {
   font-family: "miama", sans-serif;
   font-weight: 400;
+}
+.hero-description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+}
+.hero-right-side {
+  background-image: url(images/images2.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 50%;
 }
