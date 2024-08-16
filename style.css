@@ -54,3 +54,22 @@
     display: none;
   }
 }
+.hero {
+  margin: 52px 196px;
+}
+@font-face {
+  font-family: "miama";
+  src: url(/miama/Miama.ttf);
+}
+
+.hero-text {
+  color: white;
+}
+.hero-title {
+  font-size: 78px;
+  font-weight: bold;
+}
+.shape {
+  font-family: "miama", sans-serif;
+  font-weight: 400;
+}
