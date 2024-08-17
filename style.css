@@ -9,6 +9,9 @@ body {
   padding: 0;
   margin: 0;
 }
+.fill-color {
+  color: rgb(255, 255, 255, 0.5);
+}
 .nav-bar {
   margin: 52px 196px;
   display: flex;
@@ -124,7 +127,56 @@ body {
   white-space: no-wrap;
 }
 
+.change-habit {
+  color: #ffffff;
+  text-align: center;
+}
+.change-habit > p:first-child {
+  font-size: 48px;
+  font-weight: 800;
+}
+.change-habit-features {
+  margin: 52px 196px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.change-habit-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  width: 25%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.change-habit-feature img {
+  border-radius: 50%;
+  text-align: center;
+}
+.change-habit-feature > p:nth-child(odd) {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 425px) {
+  .change-habit-feature {
+    width: 100%;
+  }
+  .change-habit-features {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .change-habit > p:first-child {
+    font-size: 32px;
+    font-weight: 600;
+  }
   .mobile {
     display: flex;
   }
@@ -155,6 +207,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 800px;
+    width: 100%;
   }
   .hero-right-side-text {
     position: absolute;
