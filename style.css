@@ -270,6 +270,17 @@ input {
   /* min-width: 350px; */
   /* max-width: 100%;
   max-height: 100%; */
+  position: relative;
+}
+.team-title {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  color: white;
+}
+.team-title p {
+  padding: 0;
+  margin: 0;
 }
 .team-1 img {
   /* min-width: 10px; */
@@ -287,7 +298,7 @@ input {
     gap: 3px;
   }
   .meet-team-container {
-    margin: 1px;
+    margin: 10px;
   }
   input {
     width: 40%;
@@ -349,9 +360,7 @@ input {
   .mobile {
     display: flex;
   }
-  * {
-    margin: 10px;
-  }
+
   .nav-bar {
     margin: 0px;
   }
