@@ -288,8 +288,100 @@ input {
   /* max-width: 100%;
   max-height: 100%; */
 }
-
+.footer {
+  background-color: #222222;
+}
+.footer-container {
+  margin: 52px 196px;
+}
+.footer-elements {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 15px 0;
+}
+.footer-logo {
+  width: 50%;
+}
+.footer-hr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 255, 0.1);
+}
+hr {
+  color: red;
+}
+.footer-right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-right div {
+  width: 50%;
+  /* border: 1px solid wheat; */
+}
+.footer-right-2,
+.footer-right-1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+}
+.membership-container {
+  margin: 52px 196px;
+}
+.mebers-benifit-main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  gap: 15px;
+}
+.mebers-benifit {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  border: 2px solid #dddddd;
+  border-radius: 18px;
+}
+.member-btn {
+  color: white;
+  background-color: #e6533c;
+  padding: 5px 10px;
+  font-size: 24px;
+  border: #dddddd;
+  border-radius: 18px;
+  text-align: center;
+}
 @media screen and (max-width: 425px) {
+  .mebers-benifit-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15px;
+    gap: 15px;
+  }
+  .membership-container {
+    margin: 0;
+  }
+  .footer-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .footer-elements {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 0;
+  }
+  .footer-container {
+    margin: 0;
+    padding: 0 10px;
+  }
   .team-row-1 {
     display: flex;
     flex-direction: column;
