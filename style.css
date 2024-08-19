@@ -485,4 +485,7 @@ hr {
     top: 20%;
     left: 70%;
   }
+  .nav-bar {
+    margin: 0 10px;
+  }
 }
